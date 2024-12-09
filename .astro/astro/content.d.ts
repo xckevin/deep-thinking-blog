@@ -4,6 +4,7 @@ declare module 'astro:content' {
 			Content: import('astro').MarkdownInstance<{}>['Content'];
 			headings: import('astro').MarkdownHeading[];
 			remarkPluginFrontmatter: Record<string, any>;
+			components: import('astro').MDXInstance<{}>['components'];
 		}>;
 	}
 }
@@ -250,6 +251,106 @@ declare module 'astro:content' {
   data: InferEntrySchema<"blog">
 } & { render(): Render[".md"] };
 };
+"course": {
+"post-1.md": {
+	id: "post-1.md";
+  slug: "post-1";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+"post-10.md": {
+	id: "post-10.md";
+  slug: "post-10";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+"post-11.md": {
+	id: "post-11.md";
+  slug: "post-11";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+"post-12.md": {
+	id: "post-12.md";
+  slug: "post-12";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+"post-13.md": {
+	id: "post-13.md";
+  slug: "post-13";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+"post-14.md": {
+	id: "post-14.md";
+  slug: "post-14";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+"post-2.md": {
+	id: "post-2.md";
+  slug: "post-2";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+"post-3.md": {
+	id: "post-3.md";
+  slug: "post-3";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+"post-4.md": {
+	id: "post-4.md";
+  slug: "post-4";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+"post-5.md": {
+	id: "post-5.md";
+  slug: "post-5";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+"post-6.md": {
+	id: "post-6.md";
+  slug: "post-6";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+"post-7.md": {
+	id: "post-7.md";
+  slug: "post-7";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+"post-8.md": {
+	id: "post-8.md";
+  slug: "post-8";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+"post-9.md": {
+	id: "post-9.md";
+  slug: "post-9";
+  body: string;
+  collection: "course";
+  data: InferEntrySchema<"course">
+} & { render(): Render[".md"] };
+};
 "pages": {
 "about.md": {
 	id: "about.md";
@@ -322,6 +423,114 @@ declare module 'astro:content' {
   body: string;
   collection: "projects";
   data: InferEntrySchema<"projects">
+} & { render(): Render[".md"] };
+};
+"speech": Record<string, {
+  id: string;
+  slug: string;
+  body: string;
+  collection: "speech";
+  data: any;
+  render(): Render[".md"];
+}>;
+"speeches": {
+"post-1.md": {
+	id: "post-1.md";
+  slug: "post-1";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
+} & { render(): Render[".md"] };
+"post-10.md": {
+	id: "post-10.md";
+  slug: "post-10";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
+} & { render(): Render[".md"] };
+"post-11.md": {
+	id: "post-11.md";
+  slug: "post-11";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
+} & { render(): Render[".md"] };
+"post-12.md": {
+	id: "post-12.md";
+  slug: "post-12";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
+} & { render(): Render[".md"] };
+"post-13.md": {
+	id: "post-13.md";
+  slug: "post-13";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
+} & { render(): Render[".md"] };
+"post-14.md": {
+	id: "post-14.md";
+  slug: "post-14";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
+} & { render(): Render[".md"] };
+"post-2.md": {
+	id: "post-2.md";
+  slug: "post-2";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
+} & { render(): Render[".md"] };
+"post-3.md": {
+	id: "post-3.md";
+  slug: "post-3";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
+} & { render(): Render[".md"] };
+"post-4.md": {
+	id: "post-4.md";
+  slug: "post-4";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
+} & { render(): Render[".md"] };
+"post-5.md": {
+	id: "post-5.md";
+  slug: "post-5";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
+} & { render(): Render[".md"] };
+"post-6.md": {
+	id: "post-6.md";
+  slug: "post-6";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
+} & { render(): Render[".md"] };
+"post-7.md": {
+	id: "post-7.md";
+  slug: "post-7";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
+} & { render(): Render[".md"] };
+"post-8.md": {
+	id: "post-8.md";
+  slug: "post-8";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
+} & { render(): Render[".md"] };
+"post-9.md": {
+	id: "post-9.md";
+  slug: "post-9";
+  body: string;
+  collection: "speeches";
+  data: InferEntrySchema<"speeches">
 } & { render(): Render[".md"] };
 };
 
