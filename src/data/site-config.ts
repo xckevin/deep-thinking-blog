@@ -38,12 +38,12 @@ export type SiteConfig = {
 };
 
 const siteConfig: SiteConfig = {
-    title: 'Dante',
-    subtitle: 'Minimal Astro.js theme',
-    description: 'Astro.js and Tailwind CSS theme for blog and portfolio by justgoodui.com',
+    title: 'Deep thinking blog',
+    subtitle: 'Deep thinking about app&web development, design, life, and more.',
+    description: 'A hub for deep thinking and insightful exploration into the realms of app and web development, design, and the broader aspects of life. This platform goes beyond surface-level discussions to dive into the intricate details that define impactful technology and creativity. Whether it’s analyzing trends in app development, exploring innovative web design principles, or reflecting on the interplay between technology and daily life, the focus is always on meaningful and thought-provoking content. It’s a space where ideas are shared, curiosity is encouraged, and practical knowledge blends seamlessly with visionary thinking. From the technical nuances of coding and user experience design to the philosophical questions about how technology shapes our lives, this is a place to challenge assumptions, inspire action, and spark new perspectives. Join the journey of learning and discovery, and let’s rethink the boundaries of what’s possible together.',
     image: {
         src: '/dante-preview.jpg',
-        alt: 'Dante - Astro.js and Tailwind CSS theme'
+        alt: 'deep thinking blog preview image'
     },
     headerNavLinks: [
         {
@@ -72,43 +72,43 @@ const siteConfig: SiteConfig = {
         }
     ],
     footerNavLinks: [
-        {
-            text: 'About',
-            href: '/about'
-        },
-        {
-            text: 'Contact',
-            href: '/contact'
-        },
-        {
-            text: 'Terms',
-            href: '/terms'
-        },
-        {
-            text: 'Download theme',
-            href: 'https://github.com/JustGoodUI/dante-astro-theme'
-        }
+        // {
+        //     text: 'About',
+        //     href: '/about'
+        // },
+        // {
+        //     text: 'Contact',
+        //     href: '/contact'
+        // },
+        // {
+        //     text: 'Terms',
+        //     href: '/terms'
+        // },
+        // {
+        //     text: 'Download theme',
+        //     href: 'https://github.com/JustGoodUI/dante-astro-theme'
+        // }
     ],
     socialLinks: [
-        {
-            text: 'Dribbble',
-            href: 'https://dribbble.com/'
-        },
-        {
-            text: 'Instagram',
-            href: 'https://instagram.com/'
-        },
-        {
-            text: 'X/Twitter',
-            href: 'https://twitter.com/'
-        }
+        // {
+        //     text: 'Dribbble',
+        //     href: 'https://dribbble.com/'
+        // },
+        // {
+        //     text: 'Instagram',
+        //     href: 'https://instagram.com/'
+        // },
+        // {
+        //     text: 'X/Twitter',
+        //     href: 'https://twitter.com/'
+        // }
     ],
     hero: {
-        title: 'Hi There & Welcome to My Corner of the Web!',
-        text: "I'm **Ethan Donovan**, a web developer at Amazing Studio, dedicated to the realms of collaboration and artificial intelligence. My approach involves embracing intuition, conducting just enough research, and leveraging aesthetics as a catalyst for exceptional products. I have a profound appreciation for top-notch software, visual design, and the principles of product-led growth. Feel free to explore some of my coding endeavors on <a href='https://github.com/JustGoodUI/dante-astro-theme'>GitHub</a> or follow me on <a href='https://twitter.com/justgoodui'>Twitter/X</a>.",
+        title: 'Hi There & Welcome to Deep Thinking Blog',
+        text: "Let's face it we all have to solve problems in life and work, whether we are running a business, designing the latest software application or trying to solve the worlds social and scientific problems if we are not coming up with creative new ideas we are not just standing still but going backwards. <br/>Deep Thinking Blog is here to help you with that, by sharing our thoughts and experiences on web development, programming, and design.",
         image: {
-            src: '/hero.jpeg',
-            alt: 'A person sitting at a desk in front of a computer'
+            src: '/hero.jpg',
+            alt: 'Deep Thinking Blog hero image'
         },
         actions: [
             {
@@ -118,8 +118,8 @@ const siteConfig: SiteConfig = {
         ]
     },
     subscribe: {
-        title: 'Subscribe to Dante Newsletter',
-        text: 'One update per week. All the latest posts directly in your inbox.',
+        title: 'Subscribe to Deep Thinking Blog',
+        text: 'Update on time, with the latest news and articles. All the latest posts directly in your inbox.',
         formUrl: '#'
     },
     postsPerPage: 8,
